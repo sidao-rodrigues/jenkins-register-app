@@ -1,0 +1,6 @@
+pipeline:
+  test:
+    image: node:20
+    commands:
+      - node -v
+      - npm -v
