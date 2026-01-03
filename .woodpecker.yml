@@ -1,6 +1,10 @@
-pipeline:
+steps:
   test:
     image: node:20
     commands:
       - node -v
       - npm -v
+  # test2:
+  #   image: alpine
+  #   commands:
+  #     - echo "Woodpecker funcionando 🚀"
